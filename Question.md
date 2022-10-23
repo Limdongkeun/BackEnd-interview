@@ -1,6 +1,7 @@
 # Backend-Interview 
 
 ## CS
+
 <details>
 <summary>TCP와 UDP 방식의 차이점을 설명해주세요.</summary>
 <div markdown="1">
@@ -151,5 +152,125 @@
 
 ## Java
 
+<details>
+<summary>자바 데이터 타입 중 기본형과 참조형의 차이에 대해 설명해주세요.</summary>
+<div markdown="1">
+  
+  -   boolean, char, byte, short, int, long, float, double 실제 연산에 사용되는 것은 모두 기본형 변수이고 기본형 8가지를 제외한 나머지 타입이 참조형 변수 입니다
+</div>
+</details>
+<details>
+<summary>클래스와 객체에 대해 설명해주세요.</summary>
+<div markdown="1">
+  
+  -   클래스는 객체를 생성하기 위한 필드와 메소드를 정의하는 것입니다
+  -   객체는 클래스로부터 만들어진 글래스의 인스턴스라고 합니다. 클래스로부터 객체를 만드는 과정을 인스턴스화 한다고 합니다
+</div>
+</details>
+<details>
+<summary>메서드 오버라이딩과 메서드 오버로딩의 차이는 무엇인가요?</summary>
+<div markdown="1">
+  
+  -   오버로딩은 자바의 클래스 내에 이미 사용하려는 이름과 같은 이름을 가진 메소드가 있더라도 매개변수의 개수 또는 타입이 다르면 같은 이름의 메소드를 정의할 수 있는 것이고,
+  -   오버라이딩은 부모클래스의 메소드를 재정의 하는 것이므로 자식클래스에서 메소드의 이름, 매개변수,리턴값이 모두 같아야 합니다
+</div>
+</details>
+<details>
+<summary>static 키워드에 대해 설명하고, static를 언제 사용해야 하는 지 설명해주세요.</summary>
+<div markdown="1">
+  
+  -   오버로딩은 자바의 클래스 내에 이미 사용하려는 이름과 같은 이름을 가진 메소드가 있더라도 매개변수의 개수 또는 타입이 다르면 같은 이름의 메소드를 정의할 수 있는 것이고,
+  -   오버라이딩은 부모클래스의 메소드를 재정의 하는 것이므로 자식클래스에서 메소드의 이름, 매개변수,리턴값이 모두 같아야 합니다
+</div>
+</details>
+<details>
+<summary>제네릭에 대해서 설명하고, 컬렉션 클래스에서 왜 제네릭을 사용하는 지 설명해주세요.</summary>
+<div markdown="1">
+  
+  -   제네릭은 클래스,인터페이스,메소드 등의 타입을 파라미터로 사용할 수 있게 해주는 역할을 합니다 
+      비제네릭 타입의 코드에서 발생하는 불필요한 타입 변환으로 인한 프로그램의 성능의 저하를 감소시킬 수 있습니다. 사용하는 이유는 컴파일 시 타입 체크를 할 수 있습니다 또 타입변환을 제거합니다 
+
+</div>
+</details>
+<details>
+<summary>추상 클래스와 인터페이스의 차이는 무엇인가요?</summary>
+<div markdown="1">
+  
+  -   자바의 특성상 한개의 클래스만 상속이 가능하여 해당 클래스의 구분을 추상클래스 상속을 통해 해결하고, 할 수 있는 기능들을 인터페이스로 구현합니다 인터페이스를 사용해서 기본 틀을 구성한다면 공통으로
+      필요한 기능들도 모든 클래스에서 오버라이딩 하여 재정의 해야하는 번거로움이 있습니다 이렇게 공통된 기능이 필요하다면 추상클래스를 이용해서 일반 메서드를 작성하여 자식 클래스에서 사용할 수 있도록 
+      하면 된다.  만약 각각 다른 추상클래스를 상속하는데 공통된 기능이 필요하다면 해당 기능을 인터페이스로 작성해서 구현하는게 효율적입니다
+</div>
+</details>
+
 
 ## Spring
+
+<details>
+<summary>DI(Dependency Injection)에 대한 설명과 해당 기술의 장점에 대해 설명해주세요.</summary>
+<div markdown="1">
+  
+  -   DI란 객체를 직접 생성하는게 아니라 외부에서 생성한 후 주입 시켜주는 방식입니다 생성자주입, 필드주입, 수정자주입 등이 있습니다 
+      두 객체 간의 관계라는 관심사의 분리를 할 수 있고 객체간의 결합도를 낮춥니다
+</div>
+</details>
+<details>
+<summary>Spring MVC에서 REST API 엔드포인트를 구현하기 위해 사용되는 애너테이션들에 대해서 설명해 주세요.</summary>
+<div markdown="1">
+  
+  -   MVC는 Model, View, Controller로 나뉘는데 Model에 사용되는 어노테이션에는 @Entity가 있으며 Controller에는 @Controller나 @RestController 어노테이션을 사용하며 Service 
+      계층에는 @Service 어노테이션을, 데이터 엑세스 계층에는 @Repository 어노테이션을 사용합니다
+</div>
+</details>
+<details>
+<summary>Controller에서 응답 객체로 사용하는 ResponseEntity에 대해서 설명해 주세요.</summary>
+<div markdown="1">
+  
+  -   httpEntity를 상속받는, 결과 데이터와 HTTP 상태 코드를 직접 제어할 수 있는 클래스입니다 사용자의 HttpRequest에 대한 응답 데이터가 포함 됩니다 httpStatus, httpHeader, httpBody가
+      포함되어 있습니다
+</div>
+</details>
+<details>
+<summary>DTO가 무엇인지 설명해 주세요.</summary>
+<div markdown="1">
+  
+  -   계층간 데이터 교환을 하기 위해 사용하는 객체로, 로직을 가지지 않는 순수한 데이터 객체입니다
+</div>
+</details>
+<details>
+<summary>Spring JDBC, Spring Data JDBC, Spring Data JPA의 차이점을 설명해 주세요</summary>
+<div markdown="1">
+  
+  -   Spring JDBC는 자바로 데이터를 데이터베이스에 CRUD 기능을 해주는 표준 API이고 
+  -   Spring Data JDBC는 주로 DDD에 사용됩니다 단방향 매핑만 지원이 되며 미리 작성된 DDL이 필요합니다
+  -   Spring Data JPA는 쿼리를 자동으로 생성해주며 테이블과 객체를 매핑하여 사용할 수 있습니다
+</div>
+</details>
+<details>
+<summary>Spring에서 트랜잭션을 설정하는 방법에 대해서 설명해 주세요.</summary>
+<div markdown="1">
+  
+  -   @Transactional 어노테이션을 사용합니다. 메소드뿐만 아니라, 인터페이스, 클래스 선언에도 사용할수 있다
+</div>
+</details>
+<details>
+<summary>JUnit의 Assertion이 무엇을 의미하는지 설명해 주세요.</summary>
+<div markdown="1">
+  
+  -   테스트가 원하는 결과를 제대로 리턴하는지 에러는 발생하지 않는지 확인할 때 사용하는 메소드를 말합니다 
+  -   예를 들면 assertEquals(expected, actual)  -  expected와 actual이 동일하면 True, assertSame동일한 Object면 True 등이 있습니다
+</div>
+</details>
+<details>
+<summary>(아직)Spring Boot 기반 애플리케이션 빌드 시, 주로 사용하는 프로파일(Profile)에 대해서 설명해 주세요.</summary>
+<div markdown="1">
+  
+  -   
+</div>
+</details>
+<details>
+<summary>(아직)static 키워드에 대해 설명하고, static를 언제 사용해야 하는 지 설명해주세요.</summary>
+<div markdown="1">
+  
+  -   
+</div>
+</details>
