@@ -155,7 +155,7 @@
 ## Java
 
 <details>
-<summary>자자바 객체지향 프로그래밍(OOP에 대해 설명해 주세요.</summary>
+<summary>자바 객체지향 프로그래밍(OOP에 대해 설명해 주세요).</summary>
 <div markdown="1">
   
   -   OOP(Object Oriented Programming)이란 문제를 여러 개의 객체 단위로 나워 작업하는 방식으로, 객체들이 서로 유기적으로 상호작용하는 프로그래밍 이론입니다.
