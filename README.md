@@ -71,15 +71,6 @@
 </div>
 </details>
 <details>
-<summary>CORS에 대해 설명해주세요.</summary>
-<div markdown="1">
-  
-  -   교차 출처 리소스 공유로 동일한 출처가 아닌 다른 출처에서 데이터를 주고받는 것을 제한하기 때문에 이러한 문제를 해결하기 위한 정책입니다
-      방법으로는 예비요청과, 단순요청이 있습니다
-      동일한 출처는 URL 중에서도 프로토콜, 도메인 주소, 포트 번호가 같은 것을 의미합니다
-</div>
-</details>
-<details>
 <summary>Session과 Cookie 그리고 Token 인증방식에 대해 설명해주세요.</summary>
 <div markdown="1">
   
