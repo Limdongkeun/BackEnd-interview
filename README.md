@@ -284,3 +284,10 @@
   -   
 </div>
 </details>
+<details>
+<summary>스프링MVC에서 예외처리 기법에 대해 설명해주세요</summary>
+<div markdown="1">
+  
+  -   스프링 MVC에서 각 컨트롤러마다 @ExceptionHandler 어노테이션을 이용하여 예외처리를 하고 @ResponseStatus로 응답 상태를 지정해 줄 수 있습니다  하지만 각 컨트롤러마다 똑같은 작업을 반복해야 하는 번거로움과 코드중복이 발생하므로 AOP기법을 이용하여 @RestControllerAdvice, @ControllerAdvice 를 이용하여 공통된 예외처리를 한 번에 수행할 수 있습니다. 또  @ExceptionHandler 에 등록된 예외 클래스와 파라미터로 받는 예외 클래스가 동일해야 합니다 그렇지 않으면 런타임 시점에 에러가 발생할 수 있습니다
+</div>
+</details>
