@@ -139,7 +139,13 @@
   -   원자성,일관성,독립성,지속성 4가지 특징을 가지고 있습니다
 </div>
 </details>
-
+<details>
+<summary>OAuth 2 인증 시스템과 JWT를 이용한 인증 및 권한 부여 처리 흐름에 대해서 설명해 주세요.</summary>
+<div markdown="1">
+  
+  -   OAuth2의 흐름은 먼저 Resource Owner가 Client 즉, 웹 사이트나 앱등에 로그인 요청을 하게 되면 Client는 Resource Server에 인가 코드를 요청하게 되고 코드를 받으면 다시 코드를 이용해 Access Token과 Refresh Token을 요청하게 됩니다 그럼 Resource Server는 인가 코드를 확인하고 일치하면 토큰을 발급해 줍니다. Client는 Access Token을 Resource Owner에게 넘겨주게 되고 토큰을 이용하여 Resource Server에 있는 Resource Owner의 정보에 접근이 가능하게 됩니다 JWT는 토큰기반 인증 시스템으로 클라이언트가 서버에 접속을 하면 서버에서는 DB와 조회해서 가입된 회원인지를 확인하고 서버측에서 Access Token을 발급해주고 사용자는 서버에 매 요청마다 header에 Access Token을 넣어 요청하게 됩니다 그럼 서버에서는 Token을 검증하고 올바르다면 요청에 응답합니다
+</div>
+</details>
 
 
 
