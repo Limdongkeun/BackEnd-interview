@@ -157,7 +157,7 @@
 <summary>JVM의 역할에 대해 설명해 주세요</summary>
 <div markdown="1">
   
-  -   JVM은 스택 기반으로 동작하며, Java Byte Code를 OS에 맞게 해석 해주는 역할을 하고 가비지컬레견을 통해 자동적인 메모리 관리를 해줍니다
+  -   JVM은 스택 기반으로 동작하며, Java Byte Code를 OS에 맞게 해석 해주는 역할을 하고 가비지컬렉션을 통해 자동적인 메모리 관리를 해줍니다
 </div>
 </details>
 <details>
