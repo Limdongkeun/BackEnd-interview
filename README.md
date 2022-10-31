@@ -190,11 +190,10 @@
 </div>
 </details>
 <details>
-<summary>static 키워드에 대해 설명하고, static를 언제 사용해야 하는 지 설명해주세요.</summary>
+<summary>(아직)static 키워드에 대해 설명하고, static를 언제 사용해야 하는 지 설명해주세요.</summary>
 <div markdown="1">
-  
-  -   오버로딩은 자바의 클래스 내에 이미 사용하려는 이름과 같은 이름을 가진 메소드가 있더라도 매개변수의 개수 또는 타입이 다르면 같은 이름의 메소드를 정의할 수 있는 것이고,
-  -   오버라이딩은 부모클래스의 메소드를 재정의 하는 것이므로 자식클래스에서 메소드의 이름, 매개변수,리턴값이 모두 같아야 합니다
+
+
 </div>
 </details>
 <details>
@@ -283,13 +282,6 @@
 </details>
 <details>
 <summary>(아직)Spring Boot 기반 애플리케이션 빌드 시, 주로 사용하는 프로파일(Profile)에 대해서 설명해 주세요.</summary>
-<div markdown="1">
-  
-  -   
-</div>
-</details>
-<details>
-<summary>(아직)static 키워드에 대해 설명하고, static를 언제 사용해야 하는 지 설명해주세요.</summary>
 <div markdown="1">
   
   -   
