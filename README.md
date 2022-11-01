@@ -340,7 +340,7 @@
 </div>
 </details>
 
-##알고리즘
+## 알고리즘
 
 <details>
 <summary>탐욕(Greedy) 알고리즘을 사용하기 위해 성립해야 하는 조건에 대해 설명해주세요.</summary>
