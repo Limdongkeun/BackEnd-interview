@@ -62,8 +62,6 @@
 </div>
 </details>
 <details>
-</details>
-<details>
 <summary>CORS가 무엇이고, CORS 정책을 Spring Security에 설정하는 방법에 대해서 설명해 주세요.</summary>
 <div markdown="1">
   
