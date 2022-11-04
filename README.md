@@ -251,6 +251,15 @@
 
 ## Spring
 
+
+<details>
+<summary>스프링 컨테이너(Spring Container)에 대해 설명해주세요.</summary>
+<div markdown="1"> 
+  
+  -  스프링에서 자바 객체들을 관리하는 공간입니다. 자바 객체를 스프링에선 빈이라 부르며, 스프링 컨테이너에서 빈의 생명주기를 대신 관리해줍니다.
+  
+</div>
+</details>
 <details>
 <summary>DI(Dependency Injection)에 대한 설명과 해당 기술의 장점에 대해 설명해주세요.</summary>
 <div markdown="1"> 
