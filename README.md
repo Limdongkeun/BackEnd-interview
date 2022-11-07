@@ -13,6 +13,14 @@
 </div>
 </details>
 <details>
+<summary>HTTP 프로토콜에 대해 설명해 주세요</summary>
+<div markdown="1">
+
+  -   HTTP는(Hyper Text Transfer Protocal)이란 서버/클라이언트 모델에 따라 데이터를 주고 받기 위한 프로토콜 입니다. HTTP난 애플리케이션 레벨의 프로토콜로 TCP/IP 위에서 작동합니다. HTTP는 상태를 가지고 있지 않은 Stateless 프로토콜이며, Method, Path, Version, Headers, Body등으로 구성 됩니다.
+
+</div>
+</details>
+<details>
 <summary>Client Side Rendering 과 Server Side Rendering 의 차이점에 대해서 설명해주세요.</summary>
 <div markdown="1">
 
