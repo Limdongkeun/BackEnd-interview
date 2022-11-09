@@ -348,6 +348,13 @@
   -   영속성 컨텍스트란 엔티티를 영구 저장하는 환경이라는 뜻으로, 애플리케이션과 데이터베이스 사이에서 객체를 보관하는 가상의 데이터베이스 같은 역할을 합니다. 엔티티 매니저를 통해 엔티티를 저장하거나 조회하면서 영속성컨텍스트에 엔티티를 보관하고 관리합니다
 </div>
 </details>
+<details>
+<summary>Spring 에서 사용하는 Rest Client에 대해서 설명해 주세요.</summary>
+<div markdown="1">
+  
+  -   Rest Client란 Rest API서버에 HTTP 요청을 보낼 수 있는 라이브러리이며, Spring에서 외부 API를 호출 할 때 사용하며 RestTemplate와 WebClient가 있습니다 RestClient는 동기 방식이고 WebClient는 비동기 방식입니다.
+</div>
+</details>
 
 ## 알고리즘
 
