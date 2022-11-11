@@ -246,6 +246,7 @@
   -   Stack 영역 : 지역변수와 매개변수 데이터 값이 저장되는 공간이며, 메소드가 호출될 때 메모리에 할당되고 종료되면 메모리가 해제됩니다. LIFP 구조를 갖고 변수에 새로운 데이터가 할당되면 이전 데이터는 지워집니다
   -   Heap 영역 : new 키워드로 생성되는 객체, 배열 등이 Heap 영역에 저장되며, 가비지 컬렉션에 의해 메모리가 관리되어 집니다.
 </div>
+</details>
 <details>
 <summary>가비지 컬렉션은 무엇이며, 가비지 컬렉션 기능을 가진 언어는 무엇인가요?</summary>
 <div markdown="1">
@@ -359,7 +360,7 @@
 </details>
 <details>
 <summary>Spring 에서 사용하는 Rest Client에 대해서 설명해 주세요.</summary>
-<div markdown="1"> 
+<div markdown="1">
   
   -   Rest Client란 Rest API서버에 HTTP 요청을 보낼 수 있는 라이브러리이며, Spring에서 외부 API를 호출 할 때 사용하며 RestTemplate와 WebClient가 있습니다 RestClient는 동기 방식이고 WebClient는 비동기 방식입니다.
 </div>
