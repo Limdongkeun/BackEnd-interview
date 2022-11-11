@@ -359,7 +359,7 @@
 </details>
 <details>
 <summary>Spring 에서 사용하는 Rest Client에 대해서 설명해 주세요.</summary>
-<div markdown="1">
+<div markdown="1"> 
   
   -   Rest Client란 Rest API서버에 HTTP 요청을 보낼 수 있는 라이브러리이며, Spring에서 외부 API를 호출 할 때 사용하며 RestTemplate와 WebClient가 있습니다 RestClient는 동기 방식이고 WebClient는 비동기 방식입니다.
 </div>
