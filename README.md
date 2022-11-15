@@ -377,3 +377,14 @@
 </div>
 </details>
 
+##데이터베이스
+
+<details>
+<summary>Foreign Key와 Primary Key에 대해 설명해주세요.</summary>
+<div markdown="1">
+
+  -   primary key는 기본키로 데이터 테이블에 있는 유일하게 구분되는 것으로 중복값을 가질 수 없고 null일 수 없습니다 foreign key는 한 테이블과 참조되는 다른 테이블 간의 연결되는 primary key column을 외래키라고 합니다 참조관계의 기본키와 같은 속성을 가집니다
+
+</div>
+</details>
+
