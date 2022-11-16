@@ -366,6 +366,15 @@
   -   Rest Client란 Rest API서버에 HTTP 요청을 보낼 수 있는 라이브러리이며, Spring에서 외부 API를 호출 할 때 사용하며 RestTemplate와 WebClient가 있습니다 RestClient는 동기 방식이고 WebClient는 비동기 방식입니다.
 </div>
 </details>
+<details>
+<summary>@SpringBootTest와 @WebMvcTest의 차이점을 설명해 주세요.</summary>
+<div markdown="1">
+  
+  -   특정 레이어를 테스트할 때는 레이어에 해당하는 빈만 들고오기 때문에 의존관계에 있는 다른 레이어는 Mock을 이용해서 테스트를 해야합니다. 기본적으로 통합테스트를 할때는 @SpringBootTest를 붙여서 테스트를 진행하면되고, 원하는 레이어만 테스트 할때는 @MockMvcTest 와 같이 특정 레이어를 테스트하기 위한 애노테이션을 사용합니다.
+  -   @SpeingBootTest는 전체적으로 Flow가 제대로 작동하는지 검증하기 위해 사용되기 때문에 테스트 단위가 커서 디버깅이 어렵고 시간이 오래 걸립니다.
+  -   @WebMvcTest는 보통 컨트롤러가 예상대롤 작동하는 지 테스트하기 위해 사용됩니다. WebApplication과 관련된 빈들만 등록하기 때문에 빠르고, 슬라이스 테스트가 가능합니다.
+</div>
+</details>
 
 ## 알고리즘
 
