@@ -132,6 +132,19 @@
   -   OAuth2의 흐름은 먼저 Resource Owner가 Client 즉, 웹 사이트나 앱등에 로그인 요청을 하게 되면 Client는 Resource Server에 인가 코드를 요청하게 되고 코드를 받으면 다시 코드를 이용해 Access Token과 Refresh Token을 요청하게 됩니다 그럼 Resource Server는 인가 코드를 확인하고 일치하면 토큰을 발급해 줍니다. Client는 Access Token을 Resource Owner에게 넘겨주게 되고 토큰을 이용하여 Resource Server에 있는 Resource Owner의 정보에 접근이 가능하게 됩니다 JWT는 토큰기반 인증 시스템으로 클라이언트가 서버에 접속을 하면 서버에서는 DB와 조회해서 가입된 회원인지를 확인하고 서버측에서 Access Token을 발급해주고 사용자는 서버에 매 요청마다 header에 Access Token을 넣어 요청하게 됩니다 그럼 서버에서는 Token을 검증하고 올바르다면 요청에 응답합니다
 </div>
 </details>
+<details>
+<summary>응답 코드.</summary>
+<div markdown="1">
+  
+  - 200: 요청이 성공적으로 되었다
+  - 201: 요청이 성공적이었으며 그 결과로 새로운 리소스가 생성되었다
+  - 400: 잘못된 문법으로 인하여 서버가 요청을 이해할 수 없다
+  - 401: Unauthorized 비인증을 의미
+  - 404: 서버는 요청받은 리소스를 찾을 수 없다
+  - 500: 서버가 처리 방법을 모르는 상활
+  - 503: 서버가 요청을 처리할 준비가 되지 않았다. 일반적인 원인은 유지보수를 위해 작동이 중단 되거나 과부하가 걸렸을 
+</div>
+</details>
 
 
 
