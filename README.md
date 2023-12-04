@@ -1,5 +1,44 @@
 # Backend-Interview-Question
 
+
+## 네트워크
+<details>
+<summary>Apache란?</summary>
+<div markdown="1">
+  -   HTTP 웹 서버이다
+  -   웹서버는 클라언트가 GET , POST , DELETE 등등의 메소드를 이용해서 요청​을하면 그에 대한 결과를 돌려주는 기능이다
+  -   정적인 HTML이나 이미지를 제공하는 서버를 웹서버라고 한다
+  -   독립적으로 사용되기 보단 was 와 함께 사용
+  ### 기능 1
+  -   정적인 컨텐츠 제공
+  -   WAS를 거치지 않고 바로 자원을 제공한다
+  ### 기능 2
+  -   동적인 컨텐츠 제공을 위한 요청 전달
+  -   클라이언트의 요청(Request)을 WAS에 보내고, WAS가 처리한 결과를 클라이언트에게 전달(응답, Response)한다
+  -   클라이언트는 일반적으로 웹 브라우저를 의미한다
+</div>
+</details>
+<details>
+<summary>WAS란?</summary>
+<div markdown="1">
+  -   동적 서버 컨텐츠를 수행하는 것으로 일반적인 웹서버와 구별되며 데이터베이스 서버와 연결된다
+  -   웹서버 + 웹컨테이너
+  -   DB 조회나 다양한 로직 처리를 요구하는 동적인 컨텐츠를 제공하기 위해 만들어진 Application Server
+  -   업무를 처리하는 비지니스 로직 수행
+</div>
+</details>
+<details>
+<summary>Tomcat이란?</summary>
+<div markdown="1">
+
+  -   자바 서블릿을 실행키고 JSP코드가 포함되어 있는 웹 페이지를 만들어준다.
+  -   자바 서블릿(Java Servlet)은 자바를 사용하여 웹페이지를 동적으로 생성하는 서버측 프로그램 혹은 그 사양을 말하며, 흔히 "서블릿"이라 불린다
+### ![image](https://github.com/Limdongkeun/BackEnd-interview/assets/86710265/44c1ccc6-c855-4a4a-bae3-a5f9452ffeef)
+  -   클라이언트의 요청(Request)을 받아주고 응답(Response)할 수 있게, 웹서버와 소켓으로 통신하며 대표적인 예로 톰캣(Tomcat)
+
+</div>
+</details>
+
 ## CS
 
 <details>
@@ -16,7 +55,8 @@
 <summary>HTTP 프로토콜에 대해 설명해 주세요</summary>
 <div markdown="1">
 
-  -   HTTP는(Hyper Text Transfer Protocal)이란 서버/클라이언트 모델에 따라 데이터를 주고 받기 위한 프로토콜 입니다. HTTP난 애플리케이션 레벨의 프로토콜로 TCP/IP 위에서 작동합니다. HTTP는 상태를 가지고 있지 않은 Stateless 프로토콜이며, Method, Path, Version, Headers, Body등으로 구성 됩니다.
+  -   HTTP는(Hyper Text Transfer Protocal)이란 서버/클라이언트 모델에 따라 데이터를 주고 받기 위한 프로토콜 입니다. HTTP란 애플리케이션 레벨의 프로토콜로 TCP/IP 위에서 작동합니다
+  -   HTTP는 상태를 가지고 있지 않은 Stateless 프로토콜이며, Method, Path, Version, Headers, Body등으로 구성 됩니다
 
 </div>
 </details>
