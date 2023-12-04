@@ -127,6 +127,8 @@
   -   교차 출처 리소스 공유로 동일한 출처가 아닌 다른 출처에서 데이터를 주고받는 것을 제한하기 때문에 이러한 문제를 해결하기 위한 정책입니다
       방법으로는 예비요청과, 단순요청이 있습니다 동일한 출처는 URL 중에서도 프로토콜, 도메인 주소, 포트 번호가 같은 것을 의미합니다
   -   corsConfigurationSource로 허용되는 URL,header,method를 설정하는 방법이 있습니다
+  -   Access-Control-Allow-Origin 덕분에 서로 다른 Origin 에서 자원 공유가 가능
+  -   서버는 Access-Control-Allow-Origin헤더에 허용된 Origin이라는 정보를 담아 보낸다
 </div>
 </details>
 <details>
