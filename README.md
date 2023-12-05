@@ -224,7 +224,8 @@
   -   소프트웨어와 데이터를 제공 및 관리
   -   네이버클라우드, ERP 등과 같은 형태의 서비스 제공
 
-    <img width="835" alt="image" src="https://github.com/Limdongkeun/BackEnd-interview/assets/86710265/77286ac1-e111-4f59-89b2-c52aeda49a20">
+    ![image](https://github.com/Limdongkeun/BackEnd-interview/assets/86710265/7d470630-31a6-40d5-a804-f4399c05d97b)
+
 
 </div>
 </details>
