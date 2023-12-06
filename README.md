@@ -285,7 +285,7 @@
   
   1.  개발자가 .java파일을 생성한다.
   2.  build를 한다.
-  3.  java compiler의 javac의 명령으를 통해 바이트 코드(.class)를 생성한다.(아직 컴퓨터가 읽을 수 없는 자바 가상머신이 이해할수 있는 코드)
+  3.  java compiler의 javac의 명령을 통해 바이트 코드(.class)를 생성한다.(아직 컴퓨터가 읽을 수 없는 자바 가상머신이 이해할수 있는 코드)
   4.  컴파일된 바이크 코드를 JVM의 클래스로더(Class Loader)에게 전달한다.
   5.  클래스 로더는 동적로딩(Dynamic Loading)을 통해 필요한 클래스들을 로딩 및 링크하여 런타임 데이터 영역(Runtime Data area), 즉 JVM의 메모리에 올립니다.
 </div>
