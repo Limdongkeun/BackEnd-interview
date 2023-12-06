@@ -523,6 +523,26 @@
 </div>
 </details>
 
+<details>
+<summary>POJO란?</summary>
+<div markdown="1">
+  
+  -   프레임워크 인터페이스, 클래스를 구현하거나 확장하지 않은 단순한 클래스로 Java에서 제공하는 API 외에 종속되지 않는다
+  -   특정 환경에 종속되지 않아 코드가 간결하고 테스트 자동화에 유리
+</div>
+</details>
+
+<details>
+<summary>Spring에서 CORS를 해결하는 방법</summary>
+<div markdown="1">
+  
+  -   Servlet Filter를 사용하여 커스텀한 CORS를 설정한다
+  -   WebMvcConfiguer를 구현한 클래스를 만들어 addCorsMappings를 재정의 한다
+  -   Spring Security에서는 CorsConfigurationSource를 등록하고 Config에 추가한다
+  -   @Crossorigin 애노테이션을 이용해서 해결하는 방법도 있다
+</div>
+</details>
+
 ## JPA
 
 <details>
