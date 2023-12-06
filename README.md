@@ -553,6 +553,24 @@
 </div>
 </details>
 
+<details>
+<summary>Servlet Filter와 Spring Interceptor의 차이</summary>
+<div markdown="1">
+  
+  -   Servlet Filter는 javax.servlet에 포함된 스펙이고 Interceptor은 Spring에서 Handler를 실행하기 전후 어떠한 처리를 담당
+  -   Filter는 Web Application(Tomcat을 사용할 경우 web.xml)에 등록하며, Interceptor는 Spring의 Application Context에 등록
+</div>
+</details>
+
+<summary>@Bean/@Component 애노테이션 차이</summary>
+<div markdown="1">
+  
+  -   @Bean은 개발자가 작성한 method를 기반으로 메서드에서 반환하는 객체를 인스턴스로 생성
+  -   @Component는 개발자가 작성한 class를 기반으로 실행시점에 인스턴스를 생성
+  -   @Controller, @Service, @Repository는 모두 @Component이며 실행 시점에 자동으로 의존성 주입이 생성
+</div>
+</details>
+
 ## JPA
 
 <details>
