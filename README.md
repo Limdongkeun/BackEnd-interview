@@ -438,6 +438,16 @@
   
 </div>
 </details>
+
+<details>
+<summary>Ioc제어의 역전이란</summary>
+<div markdown="1"> 
+  
+  -   프로그램의 제어 흐름을 직접 제어하는 것이 아닌 외부에서 관리하는 것으로 코드의 최종 호출은 개발자가 제어하는 것이 아닌 프레임워크의 내부에서 결정된 대로 이루어진다
+  
+</div>
+</details>
+
 <details>
 <summary>Spring MVC에서 REST API 엔드포인트를 구현하기 위해 사용되는 애너테이션들에 대해서 설명해 주세요.</summary>
 <div markdown="1">
