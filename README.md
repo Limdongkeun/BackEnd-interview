@@ -554,7 +554,7 @@
 </details>
 
 <details>
-<summary>Servlet Filter와 Spring Interceptor의 차이</summary>
+<summary>Servlet Filter와 Spring Interceptor의 차이</summary>
 <div markdown="1">
   
   -   Servlet Filter는 javax.servlet에 포함된 스펙이고 Interceptor은 Spring에서 Handler를 실행하기 전후 어떠한 처리를 담당
@@ -562,7 +562,8 @@
 </div>
 </details>
 
-<summary>@Bean/@Component 애노테이션 차이</summary>
+<details>
+<summary>@Bean/@Component 애노테이션 차이</summary>
 <div markdown="1">
   
   -   @Bean은 개발자가 작성한 method를 기반으로 메서드에서 반환하는 객체를 인스턴스로 생성
