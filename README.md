@@ -557,7 +557,8 @@
 <summary>Servlet Filter와 Spring Interceptor의 차이</summary>
 <div markdown="1">
   
-  -   Servlet Filter는 javax.servlet에 포함된 스펙이고 Interceptor은 Spring에서 Handler를 실행하기 전후 어떠한 처리를 담당
+  -   Servlet Filter는 javax.servlet에 포함된 스펙이고 Dispatcher Servlet에 요청이 전달되기 전 / 후에 url 패턴에 맞는 모든 요청에 대해 부가 작업을 처리할 수 있는 기능을 제공
+  -   Interceptor은 Spring에서 Handler를 실행하기 전후 어떠한 처리를 담당
   -   Filter는 Web Application(Tomcat을 사용할 경우 web.xml)에 등록하며, Interceptor는 Spring의 Application Context에 등록
 </div>
 </details>
